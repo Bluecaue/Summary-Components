@@ -1,0 +1,36 @@
+@media (min-width: 720px) {
+    body{
+        margin: 25px 10%;
+        max-width: 1280px;
+    }
+    
+    header{
+        border-radius: 25px;
+        float: left;
+        width: 35%;
+        margin-right: 50px;
+        padding-bottom: 12px;
+    }
+    header p{
+        margin: 0;
+        padding-bottom: 45px;
+    }
+    .header-porcentagem{
+        margin-bottom: 15px;
+        padding: 45px;
+    }
+    main{
+        background-color: white;
+        border-radius: 25px;
+        padding-top: 25px;
+        padding-right: 15px;
+        height: 402px;
+        box-shadow:  3px 2px 15px rgba(0, 0, 0, 0.220);
+        border: none;
+    }
+}
+@media (min-width: 900px){
+    header{
+        padding-bottom: 35px;
+    }
+}
