@@ -1,36 +1,31 @@
-@media (min-width: 720px) {
+@media (min-width:720px){
     body{
-        margin: 25px 10%;
-        max-width: 1280px;
+        margin: 25px auto;
+        background-color: beige;
+        max-width: 720px;
     }
-    
-    header{
-        border-radius: 25px;
-        float: left;
-        width: 35%;
-        margin-right: 50px;
-        padding-bottom: 12px;
-    }
-    header p{
-        margin: 0;
-        padding-bottom: 45px;
-    }
-    .header-porcentagem{
-        margin-bottom: 15px;
-        padding: 45px;
-    }
-    main{
+    /*display grid*/
+    .display{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         background-color: white;
         border-radius: 25px;
-        padding-top: 25px;
-        padding-right: 15px;
-        height: 402px;
-        box-shadow:  3px 2px 15px rgba(0, 0, 0, 0.220);
-        border: none;
     }
-}
-@media (min-width: 900px){
-    header{
-        padding-bottom: 35px;
+    /*Ajustes no .header*/
+    .header{
+        border-radius: 25px;
+        margin: 0;
+    }
+    /*Parte do texto*/
+    .header p{
+        margin: 0 55px;
+    }
+    .header-porcentagem{
+        padding: 35px 40px;
+    }
+    /*Altura para o Summary*/
+    .main{
+        padding-top: 25px;
+        margin: 0 10%;
     }
 }
